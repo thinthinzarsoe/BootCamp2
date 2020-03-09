@@ -1,0 +1,44 @@
+username - thinthinzarsoe
+email	 - aster.tts@gmail.com
+password - stupidgoogle5
+
+
+Step 1:		Git Download
+Step 2: 	Git Installation
+Step 3:		Git Account Creation
+Step 4:		Git Repository
+Step 5: 	A File To upload on github
+Step 6: 	Git Command Line
+
+cd Path - Go to Directory
+
+First Time ( New Repository )
+			git init
+			git add .
+			git config --global user.email "useremail"
+			git config --global user.name "username"
+
+			git commit -m "first commit"
+			git remote add origin https://github.com/brainseeddeveloper/Sample.git
+			git push -u origin master
+
+(New Repository For New Project)
+			git init
+			git add .
+			git commit -m "first commit"
+			git remote add origin https://github.com/brainseeddeveloper/Sample.git
+			git push -u origin master
+
+(Old Repository For Existing Project)
+
+			git add .
+			git commit -m "second commit"
+			git push
+
+(Existihng Project To Other Laptop)
+
+			git pull
+
+(Other Person Project To Own Laptop)
+
+			git clone https://github.com/brainseeddeveloper/Sample.git
