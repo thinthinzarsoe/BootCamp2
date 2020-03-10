@@ -35,9 +35,14 @@ First Time ( New Repository )
 			git commit -m "second commit"
 			git push
 
+(Origin Repo For Origin Laptop)
+			
+			git pull
+
 (Existihng Project To Other Laptop)
 
-			git pull
+			git init
+			git pull https://github.com/thinthinzarsoe/BootCamp2.git
 
 (Other Person Project To Own Laptop)
 
