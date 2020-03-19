@@ -37,7 +37,6 @@ class Staff(Company):
 		print("Position: {}\nName: {}\nAge: {}\nWork Days: {}\nSalary: {}".format(self.position, self.name, self.age, self.days, self.salary))
 
 
-
 b = Boss('U Maung Khine', 20)
 
 m = Manager('U Chit Maung', 40)
